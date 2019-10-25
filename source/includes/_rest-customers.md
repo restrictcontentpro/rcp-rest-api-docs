@@ -1,4 +1,4 @@
-# Customers
+# REST API - Customers
 
 The customers route allows you to interact with the Restrict Content Pro customers database to retrieve customers, add new ones, update existing customers, and delete customers.
 

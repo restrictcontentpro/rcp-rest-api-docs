@@ -1,4 +1,4 @@
-# Introduction #
+# REST API - Introduction #
 
 The [REST API add-on](https://restrictcontentpro.com/downloads/rest-api/) provides a complete RESTful JSON API for retrieving, updating, creating, and deleting membership data in Restrict Content Pro.
 
@@ -48,3 +48,9 @@ Error Code | Meaning
 429 | Too Many Requests -- You're requesting too many kittens! Slow down!
 500 | Internal Server Error -- We had a problem with our server. Try again later.
 503 | Service Unavailable -- We're temporarily offline for maintenance. Please try again later.
+
+## Authentication ##
+
+The RCP REST API requires authenticating with a WordPress user account that has the necessary capabilities in order to view, modify, and delete information via the REST API.
+
+Please see the [WordPress REST API Authentication documentation](https://developer.wordpress.org/rest-api/using-the-rest-api/authentication/) to instructions on how to authenticate with the API.
