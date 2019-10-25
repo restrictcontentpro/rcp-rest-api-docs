@@ -13,6 +13,11 @@ toc_footers:
 
 includes:
   - memberships
+  - customers
+  - levels
+  - discounts
+  - payments
+  - emails
   - rest-introduction
   - rest-customers
 
